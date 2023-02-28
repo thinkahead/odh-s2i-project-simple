@@ -129,7 +129,7 @@ if __name__ == "__main__":
 #    for k in os.environ: print (k,'=',os.environ[k])
     import sys
     print (sys.argv)
-    pcapConn.decodeConnections(sys.argv[1:])
-#    pcapConn.decodeConnLength(sys.argv[1:])
+#    pcapConn.decodeConnections(sys.argv[1:])
+    pcapConn.decodeConnLength(sys.argv[1:])
 
         
